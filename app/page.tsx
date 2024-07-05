@@ -8,18 +8,17 @@ import img from '../assets/foto.jpg';
 const HomePage = () => {
   const user = {
     name: 'Wellington Crespo',
-    photoUrl: '../assets/foto.jpg', 
+    photoUrl: img, 
     role: 'Desarrollador Web', 
   };
-
 
   return (
     <div className={styles.homePage}>
       <div className={styles.profileCard}>
-        <Image src={img} alt="Profile" className={styles.profilePhoto} />
+        <Image src={user.photoUrl} alt="Profile" className={styles.profilePhoto} />
         <h1 className={styles.profileName}>{user.name}</h1>
         <p className={styles.profileRole}>{user.role}</p> 
-        <LoginButton/>
+        <LoginButton />
       </div>
     </div>
   );
