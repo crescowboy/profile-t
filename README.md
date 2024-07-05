@@ -1,31 +1,58 @@
-Este es un proyecto [Next.js](https://nextjs.org/) creado con [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Este es un [Next.js](https://nextjs.org/) proyecto iniciado con [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Comenzando
+## Empezando
 
 Primero, ejecuta el servidor de desarrollo:
 
+
 ```bash
 npm run dev
-# o
+# or
 yarn dev
-# o
+# or
 pnpm dev
-# o
+# or
 bun dev
-Abre http://localhost:3000 en tu navegador para ver el resultado.
+```
 
-Puedes comenzar a editar la página modificando app/page.tsx. La página se actualiza automáticamente a medida que editas el archivo.
+Abra [http://localhost:3000](http://localhost:3000) con su navegador para ver el resultado.
 
-Este proyecto utiliza next/font para optimizar y cargar automáticamente Inter, una fuente personalizada de Google.
+Puede comenzar a editar la página modificando `app/page.tsx`. La página se actualiza automáticamente a medida que edita el archivo.
 
-Aprender más
-Para aprender más sobre Next.js, echa un vistazo a los siguientes recursos:
+Este proyecto utiliza [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) para optimizar y cargar automáticamente Inter, una fuente personalizada de Google.
 
-Documentación de Next.js - aprende sobre las características y la API de Next.js.
-Aprende Next.js - un tutorial interactivo de Next.js.
-Puedes revisar el repositorio de GitHub de Next.js - tus comentarios y contribuciones son bienvenidos.
+## Aprende más
 
-Despliegue en Vercel
-La manera más fácil de desplegar tu aplicación de Next.js es utilizar la Plataforma Vercel de los creadores de Next.js.
+Para obtener más información sobre Next.js, consulte los siguientes recursos:
 
-Consulta nuestra documentación de despliegue de Next.js para más detalles.
+- [Next.js Documentation](https://nextjs.org/docs) - obtenga más información sobre las funciones y la API de Next.js.
+- [Learn Next.js](https://nextjs.org/learn) - un tutorial interactivo de Next.js.
+
+Puedes consultar [the Next.js GitHub repository](https://github.com/vercel/next.js/) - ¡Tus comentarios y contribuciones son bienvenidos!
+
+## Deploy en Vercel
+
+La forma más sencilla de implementar su aplicación Next.js es utilizar el [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) De los creadores de Next.js.
+
+Echa un vistazo a nuestra [Next.js deployment documentation](https://nextjs.org/docs/deployment) para más detalles.
+
+# Perfil de Usuario Web con Next.js
+
+Este proyecto está desarrollado utilizando Next.js 14 para crear una página web interactiva de perfil de usuario. La página está diseñada para presentar de manera intuitiva la información personal de un usuario, sus intereses y ofrecer un medio de contacto fácil de usar.
+
+# Descripción
+
+El perfil de usuario web se ha estructurado utilizando las capacidades avanzadas de Next.js 14 para una gestión eficiente de rutas dinámicas y renderizado del lado del servidor. Además, se ha implementado una funcionalidad opcional donde se muestra una tarjeta de usuario inicialmente. Los visitantes pueden hacer clic en el botón "Ver perfil" en la tarjeta para acceder al perfil completo, facilitando la navegación dentro de la aplicación.
+
+# Características Principales
+
+Secciones Dinámicas: Utilización de componentes modulares para gestionar secciones como "Header, About me, Interest y contact", que presenta una breve descripción personal, y una lista de intereses del usuario.
+
+Formulario de Contacto: Integración de un formulario interactivo que permite a los visitantes contactar al usuario a través de campos para nombre, email y mensaje.
+
+Estilización Avanzada: Implementación de estilos responsivos utilizando CSS Modules para asegurar una apariencia coherente en dispositivos móviles y de escritorio, sin depender de frameworks externos.
+
+# Pruebas y Optimización
+
+Se han realizado pruebas básicas utilizando Jest y Testing Library para garantizar la funcionalidad esperada de los componentes clave como el formulario de contacto. Además, se han incluido animaciones sutiles para mejorar la experiencia de usuario y la interactividad de la página.
+
