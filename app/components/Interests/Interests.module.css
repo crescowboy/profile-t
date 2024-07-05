@@ -1,0 +1,47 @@
+/* app/components/Interests.module.css */
+.interests {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.interests h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.interestList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.interestItem {
+  display: flex;
+  align-items: center;
+  background-color: #f1f1f1;
+  color: #666;
+  padding: 8px 12px;
+  border-radius: 16px;
+  font-size: 0.9em;
+  border: 1px solid #e0e0e0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.interestItem:hover {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.interestItem svg {
+  margin-right: 8px; /* Espacio entre el ícono y el texto */
+  font-size: 1.2em; /* Ajusta el tamaño del ícono si es necesario */
+}
+
+.interestText {
+  display: inline-block;
+}
