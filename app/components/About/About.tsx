@@ -1,4 +1,3 @@
-// app/components/About.tsx
 import styles from './About.module.css';
 
 const About = () => {

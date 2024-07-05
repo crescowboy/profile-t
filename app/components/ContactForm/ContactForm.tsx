@@ -1,8 +1,5 @@
-// app/components/ContactForm/ContactForm.tsx
-"use client";
 import React, { useState } from 'react';
 import swal from 'sweetalert';
-import { useRouter } from 'next/navigation';
 import styles from './ContactForm.module.css';
 
 const ContactForm = () => {
@@ -11,8 +8,6 @@ const ContactForm = () => {
     email: '',
     message: ''
   });
-
-  const router = useRouter();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -24,16 +19,11 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Aquí puedes implementar la lógica para la validación básica y el manejo del éxito del envío
-    console.log(formData); // Solo para propósitos de demostración
+    console.log(formData); 
     swal('Mensaje enviado con éxito', {
       icon: 'success',
     });
-    setFormData({ name: '', email: '', message: '' }); // Reiniciar el formulario después del envío
-  };
-
-  const handleBack = () => {
-    router.push('/');
+    setFormData({ name: '', email: '', message: '' }); 
   };
 
   return (
@@ -68,7 +58,6 @@ const ContactForm = () => {
           required
         ></textarea>
         <button type="submit" className={styles.button}>Enviar</button>
-        <button type="button" onClick={handleBack} className={styles.buttonBack}>Regresar</button>
       </form>
     </section>
   );

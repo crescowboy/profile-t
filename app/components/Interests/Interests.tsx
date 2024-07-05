@@ -1,4 +1,3 @@
-// app/components/Interests.tsx
 import { FaLaptopCode, FaBasketballBall, FaDumbbell, FaGithub, FaRobot, FaHiking, FaCamera } from 'react-icons/fa';
 import styles from './Interests.module.css';
 

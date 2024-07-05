@@ -1,11 +1,10 @@
-/* app/pages/page.module.css */
 .homePage {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 20px;
-    height: 100vh; /* Asegura que ocupe toda la altura de la ventana */
+    height: 100vh; 
   }
   
   .profileCard {
@@ -16,7 +15,7 @@
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Cambiado para aumentar la sombra */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
   }
   
   .profilePhoto {
@@ -42,7 +41,7 @@
   .profileButton {
     padding: 10px 20px;
     border: none;
-    background-color: #000; /* Cambiado a negro */
+    background-color: #000; 
     color: white;
     font-size: 16px;
     border-radius: 4px;
@@ -51,7 +50,7 @@
   }
   
   .profileButton:hover {
-    background-color: #333; /* Cambiado el color de hover */
+    background-color: #333; 
   }
   
   .title {
